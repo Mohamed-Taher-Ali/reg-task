@@ -1,0 +1,18 @@
+{
+    "files": [
+        "./src/constants/custom.d.ts"
+    ],
+    "compilerOptions": {
+        "typeRoots" : [
+            "./src/constants/custom.d.ts",
+            "./node_modules/@types"
+        ],
+        "outDir": "dist",
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es2017"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
